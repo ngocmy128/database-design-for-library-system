@@ -5,40 +5,40 @@ It was completed in collaboration with two teammates, focusing on setting up dat
 ## 📂 Coursework Specifications
 
 ### Tasks:
-• Creating a conceptual schema in the form of an ER or UML diagram.
-• Deriving a relational schema from the ER diagram.
-• Normalising the relations.
-• Implementing this schema by using SQL in Oracle.
-• Populating the database with a set of typical data. The data should be significant but manageable.
-• Defining specialised views which are appropriate to various sub-groups of users.
-• Defining SQL queries which could be used as canned queries for naive users.
+- Creating a conceptual schema in the form of an ER or UML diagram.
+- Deriving a relational schema from the ER diagram.
+- Normalising the relations.
+- Implementing this schema by using SQL in Oracle.
+- Populating the database with a set of typical data. The data should be significant but manageable.
+- Defining specialised views which are appropriate to various sub-groups of users.
+- Defining SQL queries which could be used as canned queries for naive users.
 
 ###  Database Application Requirements:
-1. Resources List:
-• Track physical resources: books, eBooks, and electronic devices (laptops, tablets, eBook readers), including records of:
-  - Physical location for items (shelf number and floor number). eBooks: No physical location, but digital copies limit simultaneous access
-  - Class numbers for physical books, except for devices and eBooks).
-  - Number of copies
+**1. Resources List:**
+- Track physical resources: books, eBooks, and electronic devices (laptops, tablets, eBook readers), including records of:
+  + Physical location for items (shelf number and floor number). eBooks: No physical location, but digital copies limit simultaneous access
+  + Class numbers for physical books, except for devices and eBooks).
+  + Number of copies
 
-2. Members List:
-• Track library members including staff and students including:
-  - Details of overdue fines owed by each member
-  - Membership status and whether they have been suspended due to overdue fines
+**2. Members List:**
+- Track library members including staff and students including:
+  + Details of overdue fines owed by each member
+  + Membership status and whether they have been suspended due to overdue fines
     
-3. Loan & Reservation:
+**3. Loan & Reservation:**
 Design and implement a relational design that supports:
-• Different loan periods for different member types:
-  - Students: Max 5 items borrowed at once.
-  - Staff: Max 10 items borrowed at once.
-• Reservations principles:
-  - If a resource is unavailable, a reservation is created.
-  - Multiple reservations can exist for a single resource.
-  - When an item becomes available, the earliest reservation is notified.
-  - If a member cannot take up the offer within 3 days or declines 3 times, the reservation is canceled.
+- Different loan periods for different member types:
+  + Students: Max 5 items borrowed at once.
+  + Staff: Max 10 items borrowed at once.
+- Reservations principles:
+  + If a resource is unavailable, a reservation is created.
+  + Multiple reservations can exist for a single resource.
+  + When an item becomes available, the earliest reservation is notified.
+  + If a member cannot take up the offer within 3 days or declines 3 times, the reservation is canceled.
 • Records track of:
-  - All current reservations and failures to take up offers on reserved items when they become available.
-  - Loans, including whether they are overdue.
-  - A record of previous loans to help in identifying popular resources.
+  + All current reservations and failures to take up offers on reserved items when they become available.
+  + Loans, including whether they are overdue.
+  + A record of previous loans to help in identifying popular resources.
 
 ## 🧠 Key Skills: 
 1. Relational Database Design: understanding of entity-relationship (ER) modelling, relational schema, and normalisation to avoid redundancy and maintains data integrity.
