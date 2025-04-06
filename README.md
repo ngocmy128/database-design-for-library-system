@@ -13,6 +13,7 @@ It was completed in collaboration with two teammates, focusing on setting up dat
 - Defining specialised views which are appropriate to various sub-groups of users.
 - Defining SQL queries which could be used as canned queries for naive users.
 
+
 ###  Database Application Requirements:
 **1. Resources List:**
 - Track physical resources: books, eBooks, and electronic devices (laptops, tablets, eBook readers), including records of:
@@ -40,10 +41,12 @@ Design and implement a relational design that supports:
   + Loans, including whether they are overdue.
   + A record of previous loans to help in identifying popular resources.
 
+
 ## 🧠 Key Skills: 
-1. Relational Database Design: understanding of entity-relationship (ER) modelling, relational schema, and normalisation to avoid redundancy and maintains data integrity.
-2. Database Implementation: crafted successful SQL queries for creating TABLES and VIEWS, retrieve data based on requirements and going above and beyond by incorporating TRIGGERS to enhance database functionality and maintain data integrity
-3. Teamwork & Collaboration: developed effective communication and coordination with teammates by dividing tasks, sharing ideas, and collective problem-solving to achieve project milestones.
+1. **Relational Database Design**: understanding of entity-relationship (ER) modelling, relational schema, and normalisation to avoid redundancy and maintains data integrity.
+2. **Database Implementation**: crafted successful SQL queries for creating TABLES and VIEWS, retrieve data based on requirements and going above and beyond by incorporating TRIGGERS to enhance database functionality and maintain data integrity
+3. **Teamwork & Collaboration**: developed effective communication and coordination with teammates by dividing tasks, sharing ideas, and collective problem-solving to achieve project milestones.
+
 
 ### 📊 View Project Results in above Respository:
 1. **`database-conceptual-model.pdf`**: This file includes the conceptual ER diagram/model, offering a high-level view of the system's entities and their relationships. It serves as the foundational blueprint for the database, clearly outlining key components such as resources, members, loans, and reservations.
