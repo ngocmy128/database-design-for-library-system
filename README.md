@@ -43,6 +43,7 @@ Design and implement a relational design that supports:
 
 
 ## 🧠 Key Skills: 
+### Achieved 29/30 mark
 1. **Relational Database Design**: understanding of entity-relationship (ER) modelling, relational schema, and normalisation to avoid redundancy and maintains data integrity.
 2. **Database Implementation**: crafted successful SQL queries for creating TABLES and VIEWS, retrieve data based on requirements and going above and beyond by incorporating TRIGGERS to enhance database functionality and maintain data integrity
 3. **Teamwork & Collaboration**: developed effective communication and coordination with teammates by dividing tasks, sharing ideas, and collective problem-solving to achieve project milestones.
