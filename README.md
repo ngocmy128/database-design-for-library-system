@@ -14,16 +14,18 @@ It was completed in collaboration with two teammates, focusing on setting up dat
 • Defining SQL queries which could be used as canned queries for naive users.
 
 ###  Database Application Requirements:
-**1. Resources List:**
+1. Resources List:
 • Track physical resources: books, eBooks, and electronic devices (laptops, tablets, eBook readers), including records of:
   - Physical location for items (shelf number and floor number). eBooks: No physical location, but digital copies limit simultaneous access
   - Class numbers for physical books, except for devices and eBooks).
   - Number of copies
-**2. Members List:**
+
+2. Members List:
 • Track library members including staff and students including:
   - Details of overdue fines owed by each member
   - Membership status and whether they have been suspended due to overdue fines
-**3. Loan & Reservation:**
+    
+3. Loan & Reservation:
 Design and implement a relational design that supports:
 • Different loan periods for different member types:
   - Students: Max 5 items borrowed at once.
@@ -44,6 +46,6 @@ Design and implement a relational design that supports:
 3. Teamwork & Collaboration: developed effective communication and coordination with teammates by dividing tasks, sharing ideas, and collective problem-solving to achieve project milestones.
 
 ### 📊 View Project Results in above Respository:
-1. - **`database-conceptual-model.pdf/`**: This file includes the conceptual ER diagram/model, offering a high-level view of the system's entities and their relationships. It serves as the foundational blueprint for the database, clearly outlining key components such as resources, members, loans, and reservations.
-2. - **`database-relational-schema.pdf/`**: This document contains the relational schema derived from the ER diagram, detailing the specific tables, attributes, and relationships. It illustrates how the entities from the conceptual model have been translated into a structured relational format, ensuring the database's integrity
-3. - **`database-queries.sql/`**: This file includes all SQL queries, including those used for setting up the database on Oracle Live SQL and for data retrieval for users (e.g., checking resource availability, overdue loans, active reservations...).
+1. **`database-conceptual-model.pdf`**: This file includes the conceptual ER diagram/model, offering a high-level view of the system's entities and their relationships. It serves as the foundational blueprint for the database, clearly outlining key components such as resources, members, loans, and reservations.
+2. **`database-relational-schema.pdf`**: This document contains the relational schema derived from the ER diagram, detailing the specific tables, attributes, and relationships. It illustrates how the entities from the conceptual model have been translated into a structured relational format, ensuring the database's integrity
+3. **`database-queries.sql`**: This file includes all SQL queries, including those used for setting up the database on Oracle Live SQL and for data retrieval for users (e.g., checking resource availability, overdue loans, active reservations...).
